@@ -36,7 +36,7 @@ function Skills() {
   const technicalSkills = [
     {
       name: "English",
-      level: 70,  // Adjust the level as needed
+      level: 80,  // Adjust the level as needed
       description: "Good proficiency in English",
       icon: <FaLanguage className="icon-english" />
     },

@@ -55,7 +55,8 @@ function Experience() {
           'Collaborated with colleagues to enhance the curriculum and teaching methods.'
         ],
         color: '#E74C3C'
-      }
+      },
+      
   ];
   
 
@@ -67,7 +68,7 @@ function Experience() {
             <span className="icon-wrapper">
                 <FaBriefcase className="title-icon" />
             </span>
-            <h2 className="title">Education</h2>
+            <h2 className="title">Experience</h2>
             <div className="underline"></div>
         </div>
 

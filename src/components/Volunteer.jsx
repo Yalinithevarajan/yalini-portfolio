@@ -68,6 +68,21 @@ function Volunteer() {
           'Collaborated with NCPA to develop educational content for students.',
         ],
         color: '#8E44AD'
+      },
+      {
+        id: 'ncpaLeadership',
+        title: 'District Leader - NCPA',
+        company: 'National Child Protection Authority, Kilinochchi District',
+        period: 'Ongoing',
+        icon: <FaBuilding />,
+        description: 'Leadership role in promoting child rights and protection initiatives at the district level.',
+        details: [
+          'Coordinated awareness programs on child protection and safety.',
+          'Led district-level campaigns and training workshops in collaboration with schools and local authorities.',
+          'Acted as a liaison between the NCPA and community stakeholders.',
+          'Promoted youth engagement and advocacy for child rights in rural areas.'
+        ],
+        color: '#E67E22'
       }
   ];
   

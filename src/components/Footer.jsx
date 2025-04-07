@@ -14,10 +14,10 @@ import {
   FaFileContract
 } from 'react-icons/fa'
 import './Footer.css'
-import {  useNavigate } from 'react-router-dom'
+
 
 function Footer() {
-  const navigate = useNavigate()
+ 
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -26,34 +26,25 @@ function Footer() {
     })
   }
 
-  const handleNavigation = (path) => {
-    scrollToTop()
-    navigate(path)
-  }
+
 
   const socialLinks = [
     {
       id: 1,
-      icon: <FaGithub />,
-      url: 'https://github.com/yourusername',
-      label: 'GitHub'
-    },
-    {
-      id: 2,
       icon: <FaLinkedin />,
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'https://linkedin.com/in/yalini-thevarajan-ba737233b',
       label: 'LinkedIn'
     },
     {
-      id: 3,
+      id: 2,
       icon: <FaFacebook />,
-      url: 'https://facebook.com/yourusername',
+      url: 'https://facebook.com/yaly.yaly.16718',
       label: 'Facebook'
     },
     {
-      id: 4,
+      id: 3,
       icon: <FaEnvelope />,
-      url: 'mailto:jesumathu11@gmail.com',
+      url: 'mailto:yalinithevarajan@gmail.com',
       label: 'Email'
     }
   ]
@@ -100,9 +91,10 @@ function Footer() {
               </h4>
               <ul className="links-list">
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">My Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+       
               </ul>
             </Col>
             <Col lg={3} md={6} className="footer-social">
@@ -141,21 +133,7 @@ function Footer() {
               </p>
             </Col>
             <Col md={6} className="text-md-end d-flex align-items-center justify-content-end">
-              <div className="footer-legal">
-                <button 
-                  onClick={() => handleNavigation('/privacy-policy')} 
-                  className="footer-link"
-                >
-                  Privacy Policy
-                </button>
-                <span className="separator">•</span>
-                <button 
-                  onClick={() => handleNavigation('/terms')} 
-                  className="footer-link"
-                >
-                  Terms & Conditions
-                </button>
-              </div>
+           
               <button 
                 className="scroll-to-top ms-3"
                 onClick={scrollToTop}
