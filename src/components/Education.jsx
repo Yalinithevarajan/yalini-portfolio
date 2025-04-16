@@ -123,6 +123,19 @@ function Education() {
             <button className="details-btn">View Details</button>
           </div>
 
+          <div className='diploma-english-container'>
+  <h3>Diploma in HRM (R)</h3>
+  <p>This diploma provides a strong foundation in Human Resource Management, equipping individuals with essential skills in organizational behavior, labor laws, and HR practices. Ideal for aspiring HR professionals.</p>
+  <ul>
+    <li><FaRegClock /> 1 Year</li> {/* Duration */}
+    <li><FaUniversity /> Cased Institution</li> {/* Institution */}
+    <li><FaCalendarAlt /> 2025-2026</li> {/* Year Completed */}
+  </ul>
+  <button className="details-btn">View Details</button>
+</div>
+
+
+
       </div>
 
 
