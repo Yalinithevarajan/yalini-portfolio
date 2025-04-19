@@ -24,7 +24,7 @@ function Education() {
   const backResults = [
     { subject: "Physics", grade: "S", icon: <FaFlask className="icon" /> },
     { subject: "Chemistry", grade: "C", icon: <FaFlask className="icon" /> },
-    { subject: "Mathematics", grade: "S", icon: <FaCalculator className="icon" /> },
+    { subject: "Biology", grade: "S", icon: <FaCalculator className="icon" /> },
     { subject: "General English", grade: "A", icon: <FaBook className="icon" /> }
   ];
 
@@ -69,7 +69,7 @@ function Education() {
             <h3 id='education-roadmap-header-title'>Bachelor of Science in Health Promotion</h3>
               <div className="date-container">
                 <FaCalendarAlt className="date-icon" />
-                <span className="date">2020 - 2024</span>
+                <span className="date">2021 - 2025</span>
               </div>
           </div>
             <div className='education-university-container'>
@@ -102,7 +102,7 @@ function Education() {
 
       <div className='diploma-container'>
         <div className="diploma-english-container">
-          <h3>Diploma in English (R)</h3>
+          <h3>Diploma in English </h3>
             <p>This diploma provides in-depth knowledge of the English language, including grammar, composition, and communication skills. Ideal for enhancing professional communication.</p>
             <ul>
               <li><FaRegClock /> 1 Year</li> {/* Duration */}
@@ -113,7 +113,7 @@ function Education() {
         </div>
 
           <div className='diploma-sinhala-container'>
-            <h3>Diploma in Sinhala (R)</h3>
+            <h3>Diploma in Sinhala </h3>
             <p>This diploma focuses on mastering the Sinhala language and its literature, culture, and history. Perfect for individuals who want to deepen their understanding of Sinhala.</p>
             <ul>
               <li><FaRegClock /> 1 Year</li> {/* Duration */}
